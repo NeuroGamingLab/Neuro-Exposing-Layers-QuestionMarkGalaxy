@@ -19,7 +19,9 @@ Source stills are **TIFF** in `images/`; **PNG** copies in `images/png/` are use
 
 ![questionmark1-ORIGINAL.tif](images/png/questionmark1-ORIGINAL.png)
 
-**questionmark1** (1651×1320, TIFF) is the reference still for this session. Like the artworks in [Exposing-the-Unseen-Layers-of-Paintings](https://github.com/NeuroGamingLab/Exposing-the-Unseen-Layers-of-Paintings), it is read as a dense field of RGB samples, clustered with **MiniBatchKMeans** into representative swatches so palette structure can be compared across layers without hand-tuning every hue. The derived stills in the next section are alternate layer views of the same source, produced by the same unsupervised palette-compression stack.
+<small><em>Source: <a href="https://esawebb.org/images/questionmark1/">https://esawebb.org/images/questionmark1/</a></em></small>
+
+**Question Mark Galaxy** (1651×1320, TIFF) is the reference still for this session. Like the artworks in [Exposing-the-Unseen-Layers-of-Paintings](https://github.com/NeuroGamingLab/Exposing-the-Unseen-Layers-of-Paintings), it is read as a dense field of RGB samples, clustered with **MiniBatchKMeans** into representative swatches so palette structure can be compared across layers without hand-tuning every hue. The derived stills in the next section are alternate layer views of the same source, produced by the same unsupervised palette-compression stack.
 
 ## Derived stills (2 × 11)
 
