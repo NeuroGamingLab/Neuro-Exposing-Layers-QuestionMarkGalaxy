@@ -17,11 +17,11 @@ The repository is organized as **one folder per subject** (`images/`). Each file
 
 Source stills are **TIFF** in `images/`; **PNG** copies in `images/png/` are used below so GitHub can render the gallery inline.
 
-## Original — `Question Mark Galaxy`  
+## Original — `Question Mark Galaxy`
 
-questionmark1-ORIGINAL.tif
+![questionmark1-ORIGINAL.tif](images/png/questionmark1-ORIGINAL.png)
 
-*Source: [https://esawebb.org/images/questionmark1/](https://esawebb.org/images/questionmark1/)*
+<small><em>Source: <a href="https://esawebb.org/images/questionmark1/">https://esawebb.org/images/questionmark1/</a></em></small>
 
 **Question Mark Galaxy** (1651×1320, TIFF) is the reference still for this session. Like the artworks in [Exposing-the-Unseen-Layers-of-Paintings](https://github.com/NeuroGamingLab/Exposing-the-Unseen-Layers-of-Paintings), it is read as a dense field of RGB samples, clustered with **MiniBatchKMeans** into representative swatches so palette structure can be compared across layers without hand-tuning every hue. The derived stills in the next section are alternate layer views of the same source, produced by the same unsupervised palette-compression stack.
 
@@ -29,20 +29,52 @@ questionmark1-ORIGINAL.tif
 
 Each tile uses the explanation above: a **MiniBatchKMeans** palette summary of **questionmark1**, exposed as a discrete layer still. Filenames embed a session timestamp prefix; all tiles share the `questionmark1` stem.
 
-
-|                                       |                                       |
-| ------------------------------------- | ------------------------------------- |
-| `177913431498799-questionmark1.tif`   | `1779134368378218-questionmark1.tif`  |
-| `1779134436163894-questionmark1.tif`  | `17791345046476228-questionmark1.tif` |
-| `1779134561209488-questionmark1.tif`  | `1779134616238087-questionmark1.tif`  |
-| `17791346754368-questionmark1.tif`    | `17791347356762738-questionmark1.tif` |
-| `1779134804968284-questionmark1.tif`  | `17791348712366478-questionmark1.tif` |
-| `1779134910699144-questionmark1.tif`  | `17791349756645188-questionmark1.tif` |
-| `1779135039330382-questionmark1.tif`  | `1779135078524933-questionmark1.tif`  |
-| `1779135142242959-questionmark1.tif`  | `1779135196048564-questionmark1.tif`  |
-| `17791352467320168-questionmark1.tif` | `1779135312150741-questionmark1.tif`  |
-| `1779135383259706-questionmark1.tif`  | `17791354553464699-questionmark1.tif` |
-| `1779135521826357-questionmark1.tif`  | `1779136541491795-questionmark1.tif`  |
+<table>
+  <tr>
+    <td><img src="images/png/177913431498799-questionmark1.png" alt="177913431498799-questionmark1.png" width="400"/><br/><code>177913431498799-questionmark1.tif</code></td>
+    <td><img src="images/png/1779134368378218-questionmark1.png" alt="1779134368378218-questionmark1.png" width="400"/><br/><code>1779134368378218-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/1779134436163894-questionmark1.png" alt="1779134436163894-questionmark1.png" width="400"/><br/><code>1779134436163894-questionmark1.tif</code></td>
+    <td><img src="images/png/17791345046476228-questionmark1.png" alt="17791345046476228-questionmark1.png" width="400"/><br/><code>17791345046476228-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/1779134561209488-questionmark1.png" alt="1779134561209488-questionmark1.png" width="400"/><br/><code>1779134561209488-questionmark1.tif</code></td>
+    <td><img src="images/png/1779134616238087-questionmark1.png" alt="1779134616238087-questionmark1.png" width="400"/><br/><code>1779134616238087-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/17791346754368-questionmark1.png" alt="17791346754368-questionmark1.png" width="400"/><br/><code>17791346754368-questionmark1.tif</code></td>
+    <td><img src="images/png/17791347356762738-questionmark1.png" alt="17791347356762738-questionmark1.png" width="400"/><br/><code>17791347356762738-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/1779134804968284-questionmark1.png" alt="1779134804968284-questionmark1.png" width="400"/><br/><code>1779134804968284-questionmark1.tif</code></td>
+    <td><img src="images/png/17791348712366478-questionmark1.png" alt="17791348712366478-questionmark1.png" width="400"/><br/><code>17791348712366478-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/1779134910699144-questionmark1.png" alt="1779134910699144-questionmark1.png" width="400"/><br/><code>1779134910699144-questionmark1.tif</code></td>
+    <td><img src="images/png/17791349756645188-questionmark1.png" alt="17791349756645188-questionmark1.png" width="400"/><br/><code>17791349756645188-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/1779135039330382-questionmark1.png" alt="1779135039330382-questionmark1.png" width="400"/><br/><code>1779135039330382-questionmark1.tif</code></td>
+    <td><img src="images/png/1779135078524933-questionmark1.png" alt="1779135078524933-questionmark1.png" width="400"/><br/><code>1779135078524933-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/1779135142242959-questionmark1.png" alt="1779135142242959-questionmark1.png" width="400"/><br/><code>1779135142242959-questionmark1.tif</code></td>
+    <td><img src="images/png/1779135196048564-questionmark1.png" alt="1779135196048564-questionmark1.png" width="400"/><br/><code>1779135196048564-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/17791352467320168-questionmark1.png" alt="17791352467320168-questionmark1.png" width="400"/><br/><code>17791352467320168-questionmark1.tif</code></td>
+    <td><img src="images/png/1779135312150741-questionmark1.png" alt="1779135312150741-questionmark1.png" width="400"/><br/><code>1779135312150741-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/1779135383259706-questionmark1.png" alt="1779135383259706-questionmark1.png" width="400"/><br/><code>1779135383259706-questionmark1.tif</code></td>
+    <td><img src="images/png/17791354553464699-questionmark1.png" alt="17791354553464699-questionmark1.png" width="400"/><br/><code>17791354553464699-questionmark1.tif</code></td>
+  </tr>
+  <tr>
+    <td><img src="images/png/1779135521826357-questionmark1.png" alt="1779135521826357-questionmark1.png" width="400"/><br/><code>1779135521826357-questionmark1.tif</code></td>
+    <td><img src="images/png/1779136541491795-questionmark1.png" alt="1779136541491795-questionmark1.png" width="400"/><br/><code>1779136541491795-questionmark1.tif</code></td>
+  </tr>
+</table>
 
 
 ## Related work
