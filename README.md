@@ -1,6 +1,6 @@
-# QuestionMarkGalaxy
+# Question Mark Galaxy Layers
 
-Unsupervised palette compression on **questionmark1**: **MiniBatchKMeans** (mini-batch k-means, scikit-learn–compatible API) partitions a large set of RGB pixel samples into *k* clusters and exposes each cluster centroid as a discrete swatch, trading high-cardinality colour sets for a low-cardinality representative palette. This repository holds one analysis session—the source frame plus **22** derived stills—using the same layer-exposure workflow as [Exposing-the-Unseen-Layers-of-Paintings](https://github.com/NeuroGamingLab/Exposing-the-Unseen-Layers-of-Paintings).
+Unsupervised palette compression on **questionmark1**: **MiniBatchKMeans** (mini-batch k-means, scikit-learn–compatible API) partitions a large set of RGB pixel samples into *k* clusters and exposes each cluster centroid as a discrete swatch, trading high-cardinality colour sets for a low-cardinality representative palette. 
 
 The repository is organized as **one folder per subject** (`images/`). Each file is a still from a single **questionmark1** session.
 
@@ -75,3 +75,7 @@ Each tile uses the explanation above: a **MiniBatchKMeans** palette summary of *
 ## Related work
 
 - [NeuroGamingLab/Exposing-the-Unseen-Layers-of-Paintings](https://github.com/NeuroGamingLab/Exposing-the-Unseen-Layers-of-Paintings) — multi-artwork collages from the same **MiniBatchKMeans** palette-compression pipeline.
+
+---
+
+Designed and Engineered by Dang Hoang. AI Engineer
