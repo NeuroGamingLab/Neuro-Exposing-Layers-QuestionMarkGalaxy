@@ -1,0 +1,5 @@
+Objective: create a README.md to incoporate these AI-generated images in 2 by N, where N is the total number of images/2
+
+1. Note, the original image should be first by itself,
+2. incoporate these AI-generated images in 2 by N, where N is the total number of AI-generated images/2, BELOW the original image 
+3. add the explaination of the original image to the AI-generated images
