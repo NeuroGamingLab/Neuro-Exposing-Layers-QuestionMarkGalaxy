@@ -51,4 +51,4 @@ Each tile uses the explanation above: a **MiniBatchKMeans** palette summary of *
 
 ---
 
-Designed and Engineered by Dang Hoang. AI Engineer
+*Designed and Engineered by Dang Hoang. AI Engineer*
